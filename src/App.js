@@ -49,22 +49,7 @@ function App() {
         <p>
           test
         </p>
-        <a href="./files/EditalDeAcessoARecursos2023.docx" target="_blank">abre aaqui</a>
-        <button onClick={onButtonClick}>
-          Baixe aqui o Edital 2023  
-          {/* não vai mais baixar o edital e sim abrir no próprio site */}
-        </button>
-        <button onClick={onDownload4}>
-          Baixe aqui o Edital 2023.   onDownload4
-          {/* não vai mais baixar o edital e sim abrir no próprio site */}
-        </button>
-        <button onClick={onDownload6}>
-          Baixe aqui o Edital 2023.   onDownload6 pdf
-          {/* não vai mais baixar o edital e sim abrir no próprio site */}
-        </button>
-
-        <a href='./files/EditalDeAcessoARecursos2023.docx' download>Click to download docx</a>
-        <a href='./files/DiagnosticoSocioambientalParticipativo.pdf' download>Click to download  pdf</a>
+       
         <a href={filedocx} download>Click to download import docx</a>
         <a href={filepdf} download>Click to download import import pdf</a>
       </header>
