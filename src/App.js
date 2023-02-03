@@ -51,7 +51,7 @@ function App() {
         </p>
         <a href="./files/EditalDeAcessoARecursos2023.docx" target="_blank">abre aaqui</a>
         <button onClick={onButtonClick}>
-          Baixe aqui o Edital 2023.  
+          Baixe aqui o Edital 2023  
           {/* não vai mais baixar o edital e sim abrir no próprio site */}
         </button>
         <button onClick={onDownload4}>
