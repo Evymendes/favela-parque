@@ -6,7 +6,16 @@ import Routes from "./routes/routes";
 function App() {
 
   return (
-    <Routes />
+    <div className="App">
+      <header className="App-header">
+        <p>
+          test
+        </p>
+       
+        <a href={filedocx} download>Click to download import docx</a>
+        <a href={filepdf} download>Click to download import import pdf</a>
+      </header>
+    </div>
   );
 }
 
