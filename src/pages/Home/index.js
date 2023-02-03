@@ -3,7 +3,7 @@
 function Home() {
   return (
     <>
-      <p>Home</p>
+      <p>Ho me</p>
       {/* <Link to='/o-programa'> Ir para tela o prog ram a</Link> */}
     </>
 
