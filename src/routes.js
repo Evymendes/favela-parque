@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Home from "./pages/Home";
-// import Program from "../pages/Program";
+import Program from "./pages/Program";
 // import Notice from "../Pages/Notice";
 // import TheCommunities from "../Pages/TheCommunities";
 // import Gallery from "../Pages/Gallery";
