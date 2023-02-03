@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Home from "./pages/Home";
-// import Program from "../pages/Program";
+import Program from "./pages/Program";
 // import Notice from "../Pages/Notice";
 // import TheCommunities from "../Pages/TheCommunities";
 // import Gallery from "../Pages/Gallery";
@@ -15,8 +15,7 @@ const RoutesScreens = () => {
        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
            <Route path="/" element={<Home/>} exact />
-         {/* <Route path="/site-favela" element={<Home/>} exact />
-           <Route path="/o-programa" element={<Program />} /> */}
+           <Route path="/o-programa" element={<Program />} />
            {/*<Route path="/edital" element={<Notice />} />
            <Route path="/as-comunidades" element={<TheCommunities />} />
            <Route path="/galeria" element={<Gallery />} />
