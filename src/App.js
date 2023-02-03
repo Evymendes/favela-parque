@@ -18,9 +18,6 @@ function App() {
     })
   }
 
-  const onDownload3 = () => {
-    saveAs(filedocx, "EditalDeAcessoARecursos2023.docx");
-  };
   
   const onDownload4 = () => {
     fetch(filedocx).then((response) => {
@@ -34,10 +31,6 @@ function App() {
     });
   };
 
-  const onDownload5 = () => {
-    saveAs(filepdf, "DiagnosticoSocioambientalParticipativo.pdf");
-  };
-  
   const onDownload6 = () => {
     fetch(filepdf).then((response) => {
       response.blob().then((blob) => {
@@ -61,22 +54,19 @@ function App() {
           Baixe aqui o Edital 2023.  
           {/* não vai mais baixar o edital e sim abrir no próprio site */}
         </button>
-        <button onClick={onDownload3}>
-          Baixe aqui o Edital 2023.  onDownload3 
-          {/* não vai mais baixar o edital e sim abrir no próprio site */}
-        </button>
         <button onClick={onDownload4}>
           Baixe aqui o Edital 2023.   onDownload4
           {/* não vai mais baixar o edital e sim abrir no próprio site */}
         </button>
-        <button onClick={onDownload3}>
-          Baixe aqui o Edital 2023.  onDownload5  pdf
-          {/* não vai mais baixar o edital e sim abrir no próprio site */}
-        </button>
-        <button onClick={onDownload4}>
+        <button onClick={onDownload6}>
           Baixe aqui o Edital 2023.   onDownload6 pdf
           {/* não vai mais baixar o edital e sim abrir no próprio site */}
         </button>
+
+        <a href='./files/EditalDeAcessoARecursos2023.docx' download>Click to download docx</a>
+        <a href='./files/DiagnosticoSocioambientalParticipativo.pdf' download>Click to download  pdf</a>
+        <a href={filedocx} download>Click to download import docx</a>
+        <a href={filepdf} download>Click to download import import pdf</a>
       </header>
     </div>
   );
