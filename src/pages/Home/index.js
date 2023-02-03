@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <p>Ho me</p>
-      {/* <Link to='/o-programa'> Ir para tela o prog ram a</Link> */}
+      <Link to='/o-programa'> Ir para tela o prog ram a</Link>
     </>
 
   );

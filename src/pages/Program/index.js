@@ -4,7 +4,7 @@ function Program() {
   return (
     <>
       <p>O programa</p>
-      {/* <Link to='/'> Ir para tela Home</Link> */}
+      <Link to='/'> Ir para tela Home</Link>
     </>
   );
 }
