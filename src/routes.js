@@ -15,8 +15,7 @@ const RoutesScreens = () => {
        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
            <Route path="/" element={<Home/>} exact />
-         {/* <Route path="/site-favela" element={<Home/>} exact />
-           <Route path="/o-programa" element={<Program />} /> */}
+           <Route path="/o-programa" element={<Program />} />
            {/*<Route path="/edital" element={<Notice />} />
            <Route path="/as-comunidades" element={<TheCommunities />} />
            <Route path="/galeria" element={<Gallery />} />
