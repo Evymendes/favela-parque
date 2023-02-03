@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <p>Home</p>
-      <Link to='/o-programa'> Ir para tela o program a</Link>
+      <Link to='/o-programa'> Ir para tela o prog ram a</Link>
     </>
 
   );
@@ -12,3 +12,5 @@ function Home() {
 
 export default Home;
 
+yarn global add serve
+serve -s build
