@@ -1,6 +1,6 @@
 import Layout from '../Layout';
-import FileDiagnosticoSocioambiental from '../../files/DiagnosticoSocioambientalParticipativo.pdf';
-import FileProgramaFavelaParque from '../../files/ProgramaFavelaParqueEmAção.pdf';
+// import FileDiagnosticoSocioambiental from '../../files/DiagnosticoSocioambientalParticipativo.pdf';
+// import FileProgramaFavelaParque from '../../files/ProgramaFavelaParqueEmAção.pdf';
 
 import * as S from './styles';
   
@@ -29,8 +29,8 @@ function Program() {
       </S.BackText>
 
       <S.BackText>Para conhecer mais, clique nos links abaixo:</S.BackText>
-      <S.BackText><a href={FileDiagnosticoSocioambiental} download> “Diagnóstico Socioambiental Participativo”.</a></S.BackText>
-      <S.BackText><a href={FileProgramaFavelaParque} download> "Programa Favela Parque"</a></S.BackText>    
+      {/* <S.BackText><a href={FileDiagnosticoSocioambiental} download> “Diagnóstico Socioambiental Participativo”.</a></S.BackText>
+      <S.BackText><a href={FileProgramaFavelaParque} download> "Programa Favela Parque"</a></S.BackText>     */}
     </Layout>
   );
 }
