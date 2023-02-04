@@ -16,7 +16,6 @@ const RoutesScreens = () => {
             <Route path="/realizadores" element={<Directors />} />
             <Route path="/vocenoparque" element={<YouInThePark />} />
             <Route path="/equipe" element={<Team />} /> */}
-            <Route path="/*" element={<Home/>} exact />
          </Routes>
         </BrowserRouter>
     )
