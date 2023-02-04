@@ -4,7 +4,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 // import Home from "./pages/Home";
 // import Notice from "./pages/Notice"
 import Program from "./pages/Program";
-import Team from "./pages/Team";
+// import Team from "./pages/Team";
 // import Notice from './pages/Notice';
 // import TheCommunities from "./pages/TheCommunities";
 // import Gallery from "./pages/Gallery";
@@ -19,7 +19,7 @@ const RoutesScreens = () => {
            {/* <Route path="/" element={<Home/>} exact /> */}
            {/* <Route path="/" element={<Notice />} /> */}
            <Route path="/o-programa" element={<Program />} />
-           <Route path="/time" element={<Team />} />
+           {/* <Route path="/time" element={<Team />} /> */}
            {/* <Route path="/edital" element={<Notice />} />
            <Route path="/as-comunidades" element={<TheCommunities />} />
            <Route path="/galeria" element={<Gallery />} />
