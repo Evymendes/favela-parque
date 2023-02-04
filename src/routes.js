@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import Program from "./pages/Program";
-// import Notice from './pages/Notice';
-// import TheCommunities from "./pages/TheCommunities";
-// import Gallery from "./pages/Gallery";
-// import Directors from "./pages/Directors";
-// import YouInThePark from "./pages/YouInThePark";
-// import Team from "./pages/Team";
+import Notice from "./pages/Program";
+import TheCommunities from "./pages/TheCommunities";
+import Gallery from "./pages/Gallery";
+import Directors from "./pages/Directors";
+import YouInThePark from "./pages/YouInThePark";
+import Team from "./pages/Team";
 
 const RoutesScreens = () => {
    return(
