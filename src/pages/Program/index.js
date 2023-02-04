@@ -1,10 +1,10 @@
 // import Layout from '../Layout';
-// import FileDiagnosticoSocioambiental from '../../files/DiagnosticoSocioambientalParticipativo.pdf';
-// import FileProgramaFavelaParque from '../../files/ProgramaFavelaParqueEmAção.pdf';
+// import  FileDiagnosticoSocioambiental from '../../files/DiagnosticoSocioambientalParticipativo.pdf';
+// import  FileProgramaFavelaParque from '../../files/ProgramaFavelaParqueEmAção.pdf';
 
 // import * as S from './styles';
   
-// function Program() {
+// function Team() {
 //   return (
 //     <Layout>
 //       <S.BackText>
@@ -35,5 +35,5 @@
 //   );
 // }
   
-// export default Program;
+// export default Team;
   
