@@ -14,11 +14,12 @@ import Team from "./pages/Team";
 
 const RoutesScreens = () => {
    return(
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <div basename={process.env.PUBLIC_URL}>
+        <Routes>
            {/* <Route path="/" element={<Home/>} exact /> */}
            {/* <Route path="/" element={<Notice />} /> */}
-           <Route path="/o-programa" component={<Program />} />
-           <Route path="/time" component={<Team />} />
+           <Route path="/o-programa" element={<Program />} />
+           <Route path="/time" element={<Team />} />
            {/* <Route path="/edital" element={<Notice />} />
            <Route path="/as-comunidades" element={<TheCommunities />} />
            <Route path="/galeria" element={<Gallery />} />
@@ -26,7 +27,8 @@ const RoutesScreens = () => {
            <Route path="/vocenoparque" element={<YouInThePark />} />
            <Route path="/equipe" element={<Team />} />
            <Route path="/*" element={<Home/>} exact />  */}
-      </BrowserRouter>
+        </Routes>
+      </div>
    )
 }
 
