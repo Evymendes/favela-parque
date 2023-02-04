@@ -73,10 +73,12 @@ function Menu() {
         <S.Ul open={open}>
           {listMenu.map(i =>
             <S.Li currentPage={isPathname === i.router} href={i.router}>
-              <Link to={i.router}>
+              {/* <Link to={i.router}> */}
+              {/* <a href={i.router}>
                 {i.name}
                 {i.id !== listMenu.length -1 && <span>|</span>}
-              </Link>
+              </> */}
+              {/* </Link> */}
             </S.Li>)
           }
           <S.ContentIcon>
