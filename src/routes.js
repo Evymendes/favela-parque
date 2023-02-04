@@ -16,13 +16,13 @@ const RoutesScreens = () => {
         <Routes>
            <Route path="/" element={<Home/>} exact />
            <Route path="/o-programa" element={<Program />} />
-           <Route path="/edital" element={<Notice />} />
+           {/* <Route path="/edital" element={<Notice />} />
            <Route path="/as-comunidades" element={<TheCommunities />} />
            <Route path="/galeria" element={<Gallery />} />
            <Route path="/realizadores" element={<Directors />} />
            <Route path="/vocenoparque" element={<YouInThePark />} />
            <Route path="/equipe" element={<Team />} />
-           <Route path="/*" element={<Home/>} exact /> 
+           <Route path="/*" element={<Home/>} exact />  */}
         </Routes>
       </BrowserRouter>
    )
