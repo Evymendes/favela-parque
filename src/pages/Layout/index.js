@@ -1,10 +1,10 @@
 import * as S from './styles';
   
-function Layout() {
+function Layout({childreen}) {
 
   return (
     <div>
-      <p>Layout</p>
+      {childreen}
     </div>
   );
 }
