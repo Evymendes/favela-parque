@@ -37,8 +37,8 @@ import * as S from './styles';
                   <S.Span color={`var(--color_blue)`} />
                 </S.BackHighlight>
               </S.ContentHighlight>
-              </Link>
-              
+        </Link>
+
               <S.TextAchievement>Realização</S.TextAchievement>
               <S.ContentPartnerships>
                 <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />
