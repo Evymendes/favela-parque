@@ -38,6 +38,7 @@ import * as S from './styles';
                 </S.BackHighlight>
               </S.ContentHighlight>
               </Link>
+              
               <S.TextAchievement>Realização</S.TextAchievement>
               <S.ContentPartnerships>
                 <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />
