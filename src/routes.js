@@ -13,11 +13,10 @@ import Program from "./pages/Program";
 
 const RoutesScreens = () => {
    return(
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter >
         <Routes>
            {/* <Route path="/" element={<Home/>} exact /> */}
            {/* <Route path="/" element={<Notice />} /> */}
-           {/* <Route path="/o-programa" element={<Program />} /> */}
            <Route path="/o-programa" element={<Program />} />
            {/* <Route path="/edital" element={<Notice />} />
            <Route path="/as-comunidades" element={<TheCommunities />} />
